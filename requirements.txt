@@ -13,3 +13,4 @@ packaging
 PIL
 matplotlib
 os
+cython
