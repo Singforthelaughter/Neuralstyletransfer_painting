@@ -3,7 +3,7 @@ numpy
 keras
 torchfile
 scipy
-cv2
+opencv-python
 Jinja2
 Flask
 click
