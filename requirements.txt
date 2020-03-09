@@ -10,7 +10,7 @@ click
 appdirs
 MarkupSafe
 packaging
-PIL
+Pillow
 matplotlib
 os
 cython
