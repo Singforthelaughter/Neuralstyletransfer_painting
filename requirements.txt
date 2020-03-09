@@ -1,0 +1,12 @@
+tensorflow 
+numpy
+keras
+torchfile
+scipy
+cv2
+Jinja2
+Flask
+click
+appdirs
+MarkupSafe
+packaging
