@@ -71,7 +71,7 @@ def wct_nst(targetpath, stylepath, savepath, alpha = 0.6):
     config.gpu_options.allow_growth=True
     sess = tf.compat.v1.Session(config=config)
     with sess.as_default():
-    wct = wct.eval()
+        wct = wct.eval()
     sess.close() 
     #Decode5_1
     decode5 = decoder5_1()
