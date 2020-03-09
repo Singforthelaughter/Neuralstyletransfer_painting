@@ -4,7 +4,6 @@ from flask import Flask, request, render_template, send_from_directory
 from wct_nst import wct_nst
 
 app = Flask(__name__)
-app.debug = False
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 @app.route("/")
@@ -49,4 +48,4 @@ def send_image(filename):
     return send_from_directory("images", filename)
 
 if __name__ == "__main__":
-    app.run(port=4555, debug=True)
+    app.run(host = "0.0.0.0")
