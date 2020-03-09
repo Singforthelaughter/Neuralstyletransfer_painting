@@ -10,3 +10,6 @@ click
 appdirs
 MarkupSafe
 packaging
+PIL
+matplotlib
+os
