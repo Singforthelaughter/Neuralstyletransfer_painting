@@ -12,5 +12,4 @@ MarkupSafe
 packaging
 Pillow
 matplotlib
-os
 cython
