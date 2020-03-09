@@ -4,7 +4,7 @@ from flask import Flask, request, render_template, send_from_directory
 from wct_nst import wct_nst
 
 app = Flask(__name__)
-
+app.debug = False
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 @app.route("/")
