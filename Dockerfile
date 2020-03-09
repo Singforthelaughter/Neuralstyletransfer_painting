@@ -4,6 +4,7 @@ RUN mkdir src
 WORKDIR /src
 COPY . /src
 
+Run conda install python=3.6
 RUN pip install -r requirements.txt
 
 EXPOSE 5000
