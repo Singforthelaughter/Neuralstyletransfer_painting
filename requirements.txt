@@ -1,4 +1,4 @@
-tensorflow==1.x 
+tensorflow==1.14 
 numpy
 keras
 torchfile
