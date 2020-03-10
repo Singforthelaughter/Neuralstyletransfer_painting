@@ -15,7 +15,7 @@ from PIL import Image
 from WCT_Function import encoder1_1, encoder2_1, encoder3_1, encoder4_1, encoder5_1, decoder1_1, decoder2_1, decoder3_1, decoder4_1, decoder5_1, wct_tf
 
 
-def preprocess_image(image_path):
+def preprocess_image(image_path, img_height, img_width):
   img = load_img(image_path, target_size=(img_height, img_width))
   img = img_to_array(img)
   top = int(0.0014 * width)  # shape[0] = rows
@@ -56,7 +56,7 @@ def wct_nst(targetpath, stylepath, savepath, alpha = 0.6):
         img_height = round(height / ratio)
         img_width  = resize
     
-    content_img = preprocess_image(target_image_path)
+    content_img = preprocess_image(target_image_path, img_height, img_width)
     style_img = preprocess_image(style_reference_image_path)
     a = alpha
 
