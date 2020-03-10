@@ -31,7 +31,7 @@ def pad_reflect(x, padding=1):
 
 def encoder1_1():
   inp = Input(shape=(None, None, 3), name='vgg_input')
-  t7 = torchfile.load('./wct_models/vgg_normalised_conv1_1.t7')#,force_8bytes_long=True)
+  t7 = torchfile.load('/wct_models/vgg_normalised_conv1_1.t7',force_8bytes_long=True)
   x = inp
 
   #SpatialConvolution
@@ -72,7 +72,7 @@ def encoder1_1():
 
 def encoder2_1():
   inp = Input(shape=(None, None, 3), name='vgg_input')
-  t7 = torchfile.load('./wct_models/vgg_normalised_conv2_1.t7')#,force_8bytes_long=True)
+  t7 = torchfile.load('/wct_models/vgg_normalised_conv2_1.t7',force_8bytes_long=True)
   x = inp
 
   #SpatialConvolution
@@ -158,7 +158,7 @@ def encoder2_1():
 
 def encoder3_1():
   inp = Input(shape=(None, None, 3), name='vgg_input')
-  t7 = torchfile.load('./wct_models/vgg_normalised_conv3_1.t7')#,force_8bytes_long=True)
+  t7 = torchfile.load('/wct_models/vgg_normalised_conv3_1.t7',force_8bytes_long=True)
   x = inp
 
   #SpatialConvolution
@@ -289,7 +289,7 @@ def encoder3_1():
 
 def encoder4_1():
   inp = Input(shape=(None, None, 3), name='vgg_input')
-  t7 = torchfile.load('./wct_models/vgg_normalised_conv4_1.t7')#,force_8bytes_long=True)
+  t7 = torchfile.load('/wct_models/vgg_normalised_conv4_1.t7',force_8bytes_long=True)
   x = inp
 
   #SpatialConvolution
@@ -505,7 +505,7 @@ def encoder4_1():
 
 def encoder5_1():
   inp = Input(shape=(None, None, 3), name='vgg_input')
-  t7 = torchfile.load('./wct_models/vgg_normalised_conv5_1.t7')#,force_8bytes_long=True)
+  t7 = torchfile.load('/wct_models/vgg_normalised_conv5_1.t7',force_8bytes_long=True)
   x = inp
 
   #SpatialConvolution
@@ -810,7 +810,7 @@ def encoder5_1():
 
 def decoder1_1():
   inp = Input(shape=(None, None, 64), name='vgg_input')
-  t7 = torchfile.load('./wct_models/feature_invertor_conv1_1.t7')#,force_8bytes_long=True)
+  t7 = torchfile.load('/wct_models/feature_invertor_conv1_1.t7',force_8bytes_long=True)
   x = inp
 
   #SpatialReflectionPadding
@@ -834,7 +834,7 @@ def decoder1_1():
 
 def decoder2_1():
   inp = Input(shape=(None, None, 128), name='vgg_input')
-  t7 = torchfile.load('./wct_models/feature_invertor_conv2_1.t7')#,force_8bytes_long=True)
+  t7 = torchfile.load('/wct_models/feature_invertor_conv2_1.t7',force_8bytes_long=True)
   x = inp
 
   #SpatialReflectionPadding
@@ -901,7 +901,7 @@ def decoder2_1():
 
 def decoder3_1():
   inp = Input(shape=(None, None, 256), name='vgg_input')
-  t7 = torchfile.load('./wct_models/feature_invertor_conv3_1.t7')#,force_8bytes_long=True)
+  t7 = torchfile.load('/wct_models/feature_invertor_conv3_1.t7',force_8bytes_long=True)
   x = inp
 
   #SpatialReflectionPadding
@@ -1011,7 +1011,7 @@ def decoder3_1():
 
 def decoder4_1():
   inp = Input(shape=(None, None, 512), name='vgg_input')
-  t7 = torchfile.load('./wct_models/feature_invertor_conv4_1.t7')#,force_8bytes_long=True)
+  t7 = torchfile.load('/wct_models/feature_invertor_conv4_1.t7',force_8bytes_long=True)
   x = inp
 
   #SpatialReflectionPadding
@@ -1204,7 +1204,7 @@ def decoder4_1():
 
 def decoder5_1():
   inp = Input(shape=(None, None, 512), name='vgg_input')
-  t7 = torchfile.load('./wct_models/feature_invertor_conv5_1.t7')#,force_8bytes_long=True)
+  t7 = torchfile.load('/wct_models/feature_invertor_conv5_1.t7',force_8bytes_long=True)
   x = inp
 
   #SpatialReflectionPadding
