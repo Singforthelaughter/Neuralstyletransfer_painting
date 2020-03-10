@@ -1,11 +1,11 @@
-tensorflow==1.15
+tensorflow==1.2.1
 numpy
 keras
 torchfile
 scipy
 opencv-python
 Jinja2
-Flask==1.1.1
+Flask
 click
 appdirs
 MarkupSafe
