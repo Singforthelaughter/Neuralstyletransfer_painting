@@ -12,6 +12,6 @@ EXPOSE 5000
 ARG SERVICE_FILE=service.py
 
 ENV FLASK_APP=$SERVICE_FILE
-ENV FLASK_DEBUG=1
+ENV FLASK_DEBUG=0
 
 ENTRYPOINT ["python", "-m", "flask", "run", "--host", "0.0.0.0"]
