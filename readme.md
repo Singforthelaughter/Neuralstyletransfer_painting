@@ -106,7 +106,7 @@ The survey result shows that model 1 is the most preferred generated image among
 | ------- | ------- | ------- |
 | 2 Votes | 1 Vote  | 3 Votes |
 
-Model 3: Universal Style Transfer are the most preferred NST technique among the 3 models, with the given 5 sets of images generated. The key feature of the technique in model 3 are the abilities to retain the content image (without colour & style) and transfer the style effectively into the content image. However, the model has its limitation and is not able to transfer all kind of style images effectively without taking time to conduct many trial & error testing. Nevertheless, with only 1 month of learning NST and only 3 months into data science, I am happy with the result achieved from the 3 model I have built. 
+Model 3: Universal Style Transfer are the most preferred NST technique among the 3 models, with the given 5 sets of images generated. The key feature of the technique in model 3 are the abilities to retain the content image (without colour & style) and transfer the style effectively into the content image. However, the model has its limitation and is not able to transfer all kind of style images effectively without taking time to conduct many trial & error testing. Nevertheless, with only 1 month of learning NST and only 3 months into data science, I am happy with the result achieved from the 3 models I have built. 
 
 **Recommendation For Improvement**
 
