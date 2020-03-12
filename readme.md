@@ -4,7 +4,7 @@
 
 **Problem Statement:** Make Digital Content Generation Easy For Design Company
 
-Designing good graphic design (especially in Chinese painting style) require skills and long duration of work in front of the computer. From the perspective of a design company, a graphic designing job a very talent dependent, which poses high risk in this manpower shortage and highly competitive times. By adopting deep learning technique such as Neural Style Transfer (NST), design company can automate the design process that produces consistent result which doesn't depend on individual design skillsets. 
+Designing good graphic design (especially in Chinese painting style) require skills and long duration of work in front of the computer. From the perspective of a design company, a graphic designing job is very talent dependent, which poses high risk in this manpower shortage and highly competitive times. By adopting deep learning technique such as Neural Style Transfer (NST), design company can automate the design process that produces consistent result which doesn't depend on individual design skillsets. 
 
 3 different NST techniques are used for this project:
 
