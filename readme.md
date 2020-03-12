@@ -24,79 +24,79 @@ All 3 models are written in tensorflow. You can also run the code for this proje
 
 ### Cat & Chinese Painting
 
-![cat_chinese](.\img\readme_img\cat_chinese.png)
+![cat_chinese](./img/readme_img/cat_chinese.png)
 
 **Mean & STD Plot**
 
-![cattest_plot](.\img\Plot\cattest_plot.png)
+![cattest_plot](./img/Plot/cattest_plot.png)
 
 Model 3 has the closest mean when compared to the mean of the style image, which explains why model 3 transferred the closest colour and style compared to style image.
 
 **Survey Result**
 
-![cat_voteplot](.\img\Plot\cat_voteplot.png)
+![cat_voteplot](./img/Plot/cat_voteplot.png)
 
 The survey result shows that model 3 is the most preferred generated image among the 3 model.
 
 ### Changjiang & Shangshui Painting
 
-![changjiang_shanshui](.\img\readme_img\changjiang_shanshui.png)
+![changjiang_shanshui](./img/readme_img/changjiang_shanshui.png)
 
 **Mean & STD Plot**
 
-![cjtest_plot](.\img\Plot\cjtest_plot.png)
+![cjtest_plot](./img/Plot/cjtest_plot.png)
 
 Model 1 has mean closer to the content image, and model 2 has a more balanced mean between style and content which are also reflected in the generated image. 
 
 **Survey Result**
 
-![mountain_voteplot](.\img\Plot\mountain_voteplot.png)
+![mountain_voteplot](./img/Plot/mountain_voteplot.png)
 
 Model 1 & 2 has a tie over this set of images.
 
 ### Jay & Khan
 
-![jay_khan](.\img\readme_img\jay_khan.png)
+![jay_khan](./img/readme_img/jay_khan.png)
 
 **Mean & STD Plot**
 
-![jaytest_plot](.\img\Plot\jaytest_plot.png)
+![jaytest_plot](./img/Plot/jaytest_plot.png)
 
 Model 3 has the closest mean to the style image, which can be seen from the generated image from the similarity in colour and style.
 
 **Survey Result**
 
-![jay_voteplot](.\img\Plot\jay_voteplot.png)
+![jay_voteplot](./img/Plot/jay_voteplot.png)
 
 The survey result shows that model 3 is the most preferred generated image among the 3 model.
 
 ### Merlion & WGZ
 
-![merlion_wgz](.\img\readme_img\merlion_wgz.png)
+![merlion_wgz](./img/readme_img/merlion_wgz.png)
 
 **Mean & STD Plot**
 
-![merliontest_plot](.\img\Plot\merliontest_plot.png)
+![merliontest_plot](./img/Plot/merliontest_plot.png)
 
 Model 3 has the closest mean to style image as seen from the generated image. Model 1 & 2 maintained more of the content image as seen from the mean of both images. 
 
 **Survey Result**
 
-![merlion_voteplot](.\img\Plot\merlion_voteplot.png)
+![merlion_voteplot](./img/Plot/merlion_voteplot.png)
 
 The survey result shows that model 3 is the most preferred generated image among the 3 model.
 
 ### Shophouse & WGZ2
 
-![shophouse_wgz2](.\img\readme_img\shophouse_wgz2.png)
+![shophouse_wgz2](./img/readme_img/shophouse_wgz2.png)
 
 **Mean & STD Plot**
 
-![shtest_plot](.\img\Plot\shtest_plot.png)
+![shtest_plot](./img/Plot/shtest_plot.png)
 
 **Survey Result**
 
-![shophouse_voteplot](.\img\Plot\shophouse_voteplot.png)
+![shophouse_voteplot](./img/Plot/shophouse_voteplot.png)
 
 The survey result shows that model 1 is the most preferred generated image among the 3 model.
 
